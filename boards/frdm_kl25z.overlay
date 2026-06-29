@@ -1,0 +1,97 @@
+/ {
+    aliases {
+        my-adc = &adc0;
+        my-adc-channel = &adc_ch0;
+    };
+};
+
+&adc0 {
+    status = "okay";
+    #address-cells = <1>;
+    #size-cells = <0>;
+
+    adc_ch0: channel@0 {
+        reg = <0>;
+        zephyr,gain = "ADC_GAIN_1";
+        zephyr,reference = "ADC_REF_INTERNAL";
+        zephyr,acquisition-time = <ADC_ACQ_TIME_DEFAULT>;
+        zephyr,resolution = <12>;
+        zephyr,vref-mv = <3300>;
+    };
+};
+
+&pinctrl {
+    i2c0_default: i2c0_default {
+        group0 {
+            pinmux = <I2C0_SCL_PTC8>, <I2C0_SDA_PTC9>;
+        };
+    };
+};
+
+&i2c0 {
+    status = "okay";
+    pinctrl-0 = <&i2c0_default>;
+    pinctrl-names = "default";
+    clock-frequency = <I2C_BITRATE_STANDARD>;
+};
+
+/*
+ * frdm_kl25z.overlay
+ *
+ * Mapeamento de pinos do LCD HD44780 para a FRDM-KL25Z.
+ *
+ * Conexão física (modo 4-bit):
+ *
+ *   LCD Pino | Sinal | Header FRDM-KL25Z | GPIO
+ *   ---------|-------|-------------------|-------
+ *      1     |  VSS  |       GND         |  —
+ *      2     |  VDD  |       +5V         |  —
+ *      3     |  VO   |  Pot. 10kΩ p/ GND |  —   (ajuste de contraste)
+ *      4     |  RS   |       J1-2        | PTA1
+ *      5     |  RW   |       GND         |  —   (somente escrita)
+ *      6     |  EN   |       J1-4        | PTA2
+ *      7–10  | D0–D3 |       N/C         |  —   (não usados em 4-bit)
+ *     11     |  D4   |       J2-6        | PTD4
+ *     12     |  D5   |       J1-12       | PTA12
+ *     13     |  D6   |       J1-6        | PTA4
+ *     14     |  D7   |       J1-8        | PTA5
+ *     15     |  A    |  +5V via 330Ω    |  —   (backlight +)
+ *     16     |  K    |       GND         |  —   (backlight -)
+ *
+ * Nota: a KL25Z opera em 3,3 V. A maioria dos módulos LCD com
+ * HD44780 funciona corretamente com 3,3 V no barramento de dados.
+ * Ajuste o potenciômetro de contraste até o texto aparecer.
+ *
+ * Estratégia do overlay:
+ *   O nó "zephyr,user" é o mecanismo oficial do Zephyr para
+ *   declarar múltiplos GPIOs avulsos sem precisar criar um
+ *   binding customizado. Todos os pinos ficam numa única
+ *   propriedade "gpios" e são acessados por índice no firmware.
+ */
+
+/ {
+    chosen {
+        /*
+         * Nenhuma alteração nos periféricos principais —
+         * apenas declaramos os GPIOs do LCD abaixo.
+         */
+    };
+
+    zephyr,user {
+        /*
+         * Ordem dos pinos (índice na array "gpios"):
+         *   0 → RS   (PTA1)
+         *   1 → EN   (PTA2)
+         *   2 → D4   (PTD4)
+         *   3 → D5   (PTA12)
+         *   4 → D6   (PTA4)
+         *   5 → D7   (PTA5)
+         */
+        gpios = <&gpioa 1  GPIO_ACTIVE_HIGH>,   /* RS  */
+                <&gpioa 2  GPIO_ACTIVE_HIGH>,   /* EN  */
+                <&gpiod 4  GPIO_ACTIVE_HIGH>,   /* D4  */
+                <&gpioa 12 GPIO_ACTIVE_HIGH>,   /* D5  */
+                <&gpioa 4  GPIO_ACTIVE_HIGH>,   /* D6  */
+                <&gpioa 5  GPIO_ACTIVE_HIGH>;   /* D7  */
+    };
+};

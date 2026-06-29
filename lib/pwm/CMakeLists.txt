@@ -1,0 +1,5 @@
+add_library(pwm_lib STATIC)
+target_sources(pwm_lib PRIVATE src/pwm_z42.c)
+target_include_directories(pwm_lib PUBLIC include)
+target_link_libraries(pwm_lib PUBLIC zephyr_interface)
+add_dependencies(pwm_lib zephyr_generated_headers)

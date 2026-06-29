@@ -1,0 +1,5 @@
+add_library(rtc_lib)
+target_sources(app PRIVATE src/rtc.cpp)
+target_include_directories(app PRIVATE include)
+target_link_libraries(pwm_lib PUBLIC zephyr_interface)
+add_dependencies(pwm_lib zephyr_generated_headers)
