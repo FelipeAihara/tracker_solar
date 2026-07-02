@@ -3,13 +3,30 @@
  *
  * Classe de solarimetria para tracker solar de dois eixos.
  *
- * Convenções:
- *   beta  (inclinação) : 90 = placa horizontal, faixa [30, 150]
- *   gamma (azimute)    : Norte=0, Oeste=90, Sul=180, faixa [0, 180]
+ * Convenções (tracker fisicamente montado voltado para o Norte):
+ *   gamma (orientação) : 0 = Oeste, 90 = Norte, 180 = Leste
+ *                         faixa mecânica [GAMMA_MIN, GAMMA_MAX] = [0,180]
+ *                         (o eixo de gamma só GIRA 180°, então ele
+ *                         representa uma RETA, não um raio — ela aponta
+ *                         tanto para a direção "gamma-90" quanto para a
+ *                         oposta "gamma+90")
+ *   beta  (inclinação) : 90 = placa horizontal (voltada para o céu)
+ *                         < 90 = inclina em direção a "gamma-90"
+ *                         > 90 = inclina em direção a "gamma+90"
+ *                         (a placa "passa" dos 90° pra usar o lado oposto
+ *                         do eixo de gamma e cobrir os 360° do horizonte)
+ *                         faixa mecânica [BETA_MIN, BETA_MAX] = [30,150]
+ *
+ * Fuso horário: atualizar() recebe a hora LOCAL (civil) do local de
+ * instalação. A classe converte internamente para UTC usando o offset
+ * fixo informado no construtor (padrão: -3h, horário de Brasília, sem
+ * horário de verão desde 2019). Se o tracker for instalado em outro
+ * fuso, ou se o fuso de instalação voltar a ter horário de verão,
+ * ajuste o parâmetro `fuso_horario_h` do construtor.
  *
  * Uso:
- *   Tracker tracker(latitude, longitude);
- *   tracker.atualizar(ano, mes, dia, hora, minuto, segundo); // tempo em UTC
+ *   Tracker tracker(latitude, longitude);       // fuso -3h (Brasília) por padrão
+ *   tracker.atualizar(t);                        // t = hora LOCAL
  *   servo_beta.write(tracker.getBeta());
  *   servo_gamma.write(tracker.getGamma());
  */
@@ -17,12 +34,13 @@
 #pragma once
 
 #include <ctime>
-#include <rtc.hpp> 
+#include <rtc.hpp>
 
 class Tracker {
 private:
     double _latitude;
     double _longitude;
+    double _fuso_horario_h; // offset do fuso local em relação ao UTC, em horas (Brasília = -3)
 
     int  _beta;
     int  _gamma;
@@ -43,10 +61,10 @@ private:
         bool   acima_horizonte;
     };
 
-    double       diasDesdeJ2000(const struct tm& utc) const;
-    PosicaoSolar calcPosicao(const struct tm& utc)    const;
-    int          calcBeta (double elevacao, bool flip) const;
-    int          calcGamma(double azimute, bool& flip) const;
+    double       diasDesdeJ2000(const struct tm& local) const;
+    PosicaoSolar calcPosicao(const struct tm& local)    const;
+    int          calcBeta (double elevacao, bool flip)   const;
+    int          calcGamma(double azimute, bool& flip)   const;
 
 public:
     // Limites dos servos
@@ -55,28 +73,35 @@ public:
     static constexpr int GAMMA_MIN = 0;
     static constexpr int GAMMA_MAX = 180;
 
-    // Posição de repouso (sol abaixo do horizonte)
+    // Posição de repouso (sol abaixo do horizonte): plano, voltado para o Norte
     static constexpr int BETA_REPOUSO  = 90;
     static constexpr int GAMMA_REPOUSO = 90;
 
+    // Fuso horário padrão de instalação (Brasília, UTC-3, sem DST)
+    static constexpr double FUSO_HORARIO_PADRAO_H = -3.0;
+
     /**
-     * @param latitude   Latitude em graus decimais  (+Norte / −Sul)
-     * @param longitude  Longitude em graus decimais (+Leste / −Oeste)
+     * @param latitude        Latitude em graus decimais  (+Norte / −Sul)
+     * @param longitude       Longitude em graus decimais (+Leste / −Oeste)
+     * @param fuso_horario_h  Offset do fuso horário local em relação ao UTC,
+     *                        em horas (ex.: -3 para horário de Brasília).
      */
-    Tracker(double latitude, double longitude);
+    Tracker(double latitude, double longitude,
+            double fuso_horario_h = FUSO_HORARIO_PADRAO_H);
 
     /**
      * Atualiza o tempo e recalcula beta e gamma.
      * Deve ser chamado a cada ciclo de controle (ex: a cada minuto).
-     * O tempo deve ser fornecido em UTC.
+     * O tempo deve ser fornecido em hora LOCAL (a conversão para UTC é
+     * feita internamente usando o fuso configurado no construtor).
      */
     void atualizar(const struct tempo &t);
 
-    /** Retorna o ângulo de inclinação para o servo [30, 150]. */
+    /** Retorna o ângulo de inclinação para o servo [BETA_MIN, BETA_MAX]. */
     int getBeta()  const { return _beta;  }
 
-    /** Retorna o ângulo de orientação para o servo [0, 180]. */
-    int getGamma() const { return _gamma; }
+    /** Retorna o ângulo de orientação para o servo [GAMMA_MIN, GAMMA_MAX]. */
+    int getGamma() const { return 149 - _gamma; }
 
     /** Retorna true se o sol está acima do horizonte. */
     bool solVisivel() const { return _sol_visivel; }

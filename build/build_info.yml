@@ -56,6 +56,6 @@ cmake:
     zephyr-base: 'C:/Users/fyaih/zephyrproject/zephyr'
 version: '0.1.0'
 west:
-  command: 'C:\Users\fyaih\zephyrproject\.venv\Scripts\west build -p -b frdm_kl25z'
+  command: 'C:\Users\fyaih\zephyrproject\.venv\Scripts\west build -p always -b frdm_kl25z'
   topdir: 'C:\Users\fyaih\zephyrproject'
   version: '1.5.0'

@@ -519,7 +519,7 @@ zephyr_udc0: &usbotg {
     pinctrl-names = "default";
     clock-frequency = <100000>;
 };
-# 72 "C:/Users/fyaih/zephyrproject/projects/tracker_solar/boards/frdm_kl25z.overlay"
+# 114 "C:/Users/fyaih/zephyrproject/projects/tracker_solar/boards/frdm_kl25z.overlay"
 / {
     chosen {
 
@@ -529,7 +529,7 @@ zephyr_udc0: &usbotg {
     };
 
     zephyr,user {
-# 90 "C:/Users/fyaih/zephyrproject/projects/tracker_solar/boards/frdm_kl25z.overlay"
+# 132 "C:/Users/fyaih/zephyrproject/projects/tracker_solar/boards/frdm_kl25z.overlay"
         gpios = <&gpioa 1 (0 << 0)>,
                 <&gpioa 2 (0 << 0)>,
                 <&gpiod 4 (0 << 0)>,

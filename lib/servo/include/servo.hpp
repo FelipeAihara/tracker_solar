@@ -10,8 +10,8 @@ extern "C"
 
  
 #define TPM_MODULE 7500
-#define DUTY_MIN 203
-#define DUTY_MAX 900
+#define DUTY_MIN 112
+#define DUTY_MAX 862
 
 class Servo
 {

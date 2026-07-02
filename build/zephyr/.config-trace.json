@@ -234,27 +234,33 @@
     "CONFIG_INPUT",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      28
+    ]
   ],
   [
     "CONFIG_WIFI",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      29
+    ]
   ],
   [
     "CONFIG_ADC_INIT_PRIORITY",
     "y",
     "int",
     "50",
-    "default",
+    "assign",
     [
-      "C:\\Users\\fyaih\\zephyrproject\\zephyr\\drivers\\adc\\Kconfig",
-      72
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      30
     ]
   ],
   [
@@ -262,29 +268,32 @@
     "y",
     "int",
     "1024",
-    "default",
+    "assign",
     [
-      "C:\\Users\\fyaih\\zephyrproject\\zephyr\\kernel\\Kconfig",
-      129
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      31
     ]
   ],
   [
     "CONFIG_REGULATOR",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      32
+    ]
   ],
   [
     "CONFIG_SYSTEM_WORKQUEUE_STACK_SIZE",
     "y",
     "int",
     "1024",
-    "default",
+    "assign",
     [
-      "C:\\Users\\fyaih\\zephyrproject\\zephyr\\kernel\\Kconfig",
-      502
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      33
     ]
   ],
   [
@@ -294,8 +303,8 @@
     "y",
     "assign",
     [
-      "C:/Users/fyaih/zephyrproject/zephyr/boards/nxp/frdm_kl25z/frdm_kl25z_defconfig",
-      6
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      34
     ]
   ],
   [
@@ -305,75 +314,96 @@
     "y",
     "assign",
     [
-      "C:/Users/fyaih/zephyrproject/zephyr/boards/nxp/frdm_kl25z/frdm_kl25z_defconfig",
-      5
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      35
     ]
   ],
   [
     "CONFIG_SPI",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      36
+    ]
   ],
   [
     "CONFIG_MIPI_DSI",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      37
+    ]
   ],
   [
     "CONFIG_MEMC",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      38
+    ]
   ],
   [
     "CONFIG_MODEM",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      39
+    ]
   ],
   [
     "CONFIG_UART_INTERRUPT_DRIVEN",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      40
+    ]
   ],
   [
     "CONFIG_GPIO_HOGS",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      41
+    ]
   ],
   [
     "CONFIG_GNSS",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      42
+    ]
   ],
   [
     "CONFIG_OSC_XTAL0_FREQ",
     "y",
     "int",
     "8000000",
-    "default",
+    "assign",
     [
-      "C:/Users/fyaih/zephyrproject/zephyr/boards/nxp/frdm_kl25z/Kconfig.defconfig",
-      9
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      43
     ]
   ],
   [
@@ -381,10 +411,10 @@
     "y",
     "hex",
     "0x01",
-    "default",
+    "assign",
     [
-      "C:/Users/fyaih/zephyrproject/zephyr/boards/nxp/frdm_kl25z/Kconfig.defconfig",
-      12
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      44
     ]
   ],
   [
@@ -392,10 +422,10 @@
     "y",
     "hex",
     "0x00",
-    "default",
+    "assign",
     [
-      "C:/Users/fyaih/zephyrproject/zephyr/boards/nxp/frdm_kl25z/Kconfig.defconfig",
-      15
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      45
     ]
   ],
   [
@@ -403,10 +433,10 @@
     "y",
     "int",
     "5",
-    "default",
+    "assign",
     [
-      "C:/Users/fyaih/zephyrproject/zephyr/boards/nxp/frdm_kl25z/Kconfig.defconfig",
-      18
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      46
     ]
   ],
   [
@@ -414,10 +444,10 @@
     "y",
     "int",
     "0",
-    "default",
+    "assign",
     [
-      "C:/Users/fyaih/zephyrproject/zephyr/boards/nxp/frdm_kl25z/Kconfig.defconfig",
-      21
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      47
     ]
   ],
   [
@@ -449,8 +479,8 @@
     "48000000",
     "assign",
     [
-      "C:/Users/fyaih/zephyrproject/zephyr/boards/nxp/frdm_kl25z/frdm_kl25z_defconfig",
-      7
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      50
     ]
   ],
   [
@@ -458,10 +488,10 @@
     "y",
     "int",
     "128",
-    "default",
+    "assign",
     [
-      "C:\\Users\\fyaih\\zephyrproject\\zephyr\\arch\\Kconfig",
-      280
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      51
     ]
   ],
   [
@@ -469,10 +499,10 @@
     "y",
     "hex",
     "0x0",
-    "default",
+    "assign",
     [
-      "C:\\Users\\fyaih\\zephyrproject\\zephyr\\arch\\Kconfig",
-      289
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      52
     ]
   ],
   [
@@ -480,10 +510,10 @@
     "y",
     "int",
     "1",
-    "default",
+    "assign",
     [
-      "C:\\Users\\fyaih\\zephyrproject\\zephyr\\kernel\\smp\\Kconfig",
-      33
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      53
     ]
   ],
   [
@@ -523,10 +553,10 @@
     "y",
     "int",
     "256",
-    "default",
+    "assign",
     [
-      "C:\\Users\\fyaih\\zephyrproject\\zephyr\\kernel\\Kconfig",
-      144
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      57
     ]
   ],
   [
@@ -534,10 +564,10 @@
     "y",
     "int",
     "2048",
-    "default",
+    "assign",
     [
-      "C:\\Users\\fyaih\\zephyrproject\\zephyr\\kernel\\Kconfig",
-      153
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      58
     ]
   ],
   [
@@ -555,10 +585,10 @@
     "y",
     "int",
     "10000",
-    "default",
+    "assign",
     [
-      "C:\\Users\\fyaih\\zephyrproject\\zephyr\\kernel\\Kconfig",
-      700
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      60
     ]
   ],
   [
@@ -566,10 +596,10 @@
     "y",
     "bool",
     "y",
-    "default",
+    "assign",
     [
-      "C:\\Users\\fyaih\\zephyrproject\\zephyr\\Kconfig.zephyr",
-      833
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      61
     ]
   ],
   [
@@ -577,10 +607,10 @@
     "y",
     "hex",
     "0",
-    "default",
+    "assign",
     [
-      "C:\\Users\\fyaih\\zephyrproject\\zephyr\\Kconfig.zephyr",
-      165
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      62
     ]
   ],
   [
@@ -588,10 +618,10 @@
     "y",
     "string",
     "__start",
-    "default",
+    "assign",
     [
-      "C:\\Users\\fyaih\\zephyrproject\\zephyr\\Kconfig.zephyr",
-      237
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      63
     ]
   ],
   [
@@ -599,9 +629,10 @@
     "y",
     "bool",
     "y",
-    "imply",
+    "assign",
     [
-      "CPU_CORTEX_M && ARM"
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      64
     ]
   ],
   [
@@ -618,59 +649,77 @@
     "CONFIG_COUNTER",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      66
+    ]
   ],
   [
     "CONFIG_SHARED_INTERRUPTS",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      67
+    ]
   ],
   [
     "CONFIG_SRAM_VECTOR_TABLE",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      68
+    ]
   ],
   [
     "CONFIG_PM_DEVICE",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      69
+    ]
   ],
   [
     "CONFIG_OTP",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      70
+    ]
   ],
   [
     "CONFIG_NVMEM",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      71
+    ]
   ],
   [
     "CONFIG_TICKLESS_KERNEL",
     "y",
     "bool",
     "y",
-    "default",
+    "assign",
     [
-      "C:\\Users\\fyaih\\zephyrproject\\zephyr\\kernel\\Kconfig",
-      936
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      72
     ]
   ],
   [
@@ -678,10 +727,10 @@
     "y",
     "bool",
     "y",
-    "default",
+    "assign",
     [
-      "C:\\Users\\fyaih\\zephyrproject\\zephyr\\drivers\\timer\\Kconfig.cortex_m_systick",
-      9
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      73
     ]
   ],
   [
@@ -689,113 +738,131 @@
     "y",
     "int",
     "30",
-    "default",
+    "assign",
     [
-      "C:\\Users\\fyaih\\zephyrproject\\zephyr\\drivers\\clock_control\\Kconfig",
-      21
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      74
     ]
   ],
   [
     "CONFIG_USE_DT_CODE_PARTITION",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      75
+    ]
   ],
   [
     "CONFIG_MULTI_LEVEL_INTERRUPTS",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      76
+    ]
   ],
   [
     "CONFIG_NUM_METAIRQ_PRIORITIES",
     "y",
     "int",
     "0",
-    "default",
+    "assign",
     [
-      "C:\\Users\\fyaih\\zephyrproject\\zephyr\\kernel\\Kconfig",
-      97
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      77
     ]
   ],
   [
     "CONFIG_POWER_DOMAIN",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      78
+    ]
   ],
   [
     "CONFIG_NUM_PREEMPT_PRIORITIES",
     "y",
     "int",
     "15",
-    "default",
+    "assign",
     [
-      "C:\\Users\\fyaih\\zephyrproject\\zephyr\\kernel\\Kconfig",
-      55
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      79
     ]
   ],
   [
     "CONFIG_BUILD_OUTPUT_HEX",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      80
+    ]
   ],
   [
     "CONFIG_GEN_IRQ_VECTOR_TABLE",
     "y",
     "bool",
     "y",
-    "default",
+    "assign",
     [
-      "C:\\Users\\fyaih\\zephyrproject\\zephyr\\arch\\Kconfig",
-      569
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      81
     ]
   ],
   [
     "CONFIG_DYNAMIC_INTERRUPTS",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      82
+    ]
   ],
   [
     "CONFIG_GEN_ISR_TABLES",
     "y",
     "bool",
     "y",
-    "default",
+    "assign",
     [
-      "C:/Users/fyaih/zephyrproject/zephyr/arch/arm\\core\\cortex_m/Kconfig",
-      328
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      83
     ]
   ],
   [
     "CONFIG_INIT_STACKS",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      84
+    ]
   ],
   [
     "CONFIG_TIMESLICE_SIZE",
     "y",
     "int",
     "20",
-    "default",
+    "assign",
     [
-      "C:\\Users\\fyaih\\zephyrproject\\zephyr\\kernel\\Kconfig",
-      560
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      85
     ]
   ],
   [
@@ -803,10 +870,10 @@
     "y",
     "hex",
     "0",
-    "default",
+    "assign",
     [
-      "C:\\Users\\fyaih\\zephyrproject\\zephyr\\Kconfig.zephyr",
-      135
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      86
     ]
   ],
   [
@@ -814,204 +881,264 @@
     "y",
     "bool",
     "y",
-    "default",
+    "assign",
     [
-      "C:\\Users\\fyaih\\zephyrproject\\zephyr\\kernel\\Kconfig",
-      736
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      87
     ]
   ],
   [
     "CONFIG_INIT_ARCH_HW_AT_BOOT",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      88
+    ]
   ],
   [
     "CONFIG_BUILD_OUTPUT_S19",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      89
+    ]
   ],
   [
     "CONFIG_ROMSTART_RELOCATION_ROM",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      90
+    ]
   ],
   [
     "CONFIG_FLASH",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      91
+    ]
   ],
   [
     "CONFIG_CODE_DATA_RELOCATION",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      92
+    ]
   ],
   [
     "CONFIG_CPU_HAS_CUSTOM_FIXED_SOC_MPU_REGIONS",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      93
+    ]
   ],
   [
     "CONFIG_NXP_FW_LOADER",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      94
+    ]
   ],
   [
     "CONFIG_NXP_RF_IMU",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      95
+    ]
   ],
   [
     "CONFIG_WUC",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      96
+    ]
   ],
   [
     "CONFIG_SYSTEM_CLOCK_HW_CYCLES_PER_SEC_RUNTIME_UPDATE",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      97
+    ]
   ],
   [
     "CONFIG_MFD",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      98
+    ]
   ],
   [
     "CONFIG_KINETIS_FLASH_CONFIG_FOPT",
     "y",
     "hex",
     "0x3B",
-    "default",
+    "assign",
     [
-      "C:/Users/fyaih/zephyrproject/zephyr/soc/nxp/kinetis\\kl2x\\Kconfig.defconfig",
-      15
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      99
     ]
   ],
   [
     "CONFIG_CODE_DATA_RELOCATION_SRAM",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      100
+    ]
   ],
   [
     "CONFIG_CACHE",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      101
+    ]
   ],
   [
     "CONFIG_LOG",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      102
+    ]
   ],
   [
     "CONFIG_PM_CPU_OPS",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      103
+    ]
   ],
   [
     "CONFIG_RESET",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      104
+    ]
   ],
   [
     "CONFIG_ARCH_SW_ISR_TABLE_ALIGN",
     "y",
     "int",
     "4",
-    "default",
+    "assign",
     [
-      "C:\\Users\\fyaih\\zephyrproject\\zephyr\\arch\\Kconfig",
-      654
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      105
     ]
   ],
   [
     "CONFIG_ASSERT",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      106
+    ]
   ],
   [
     "CONFIG_DEVICE_DEPS",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      107
+    ]
   ],
   [
     "CONFIG_UART_USE_RUNTIME_CONFIGURE",
     "y",
     "bool",
     "y",
-    "default",
+    "assign",
     [
-      "C:\\Users\\fyaih\\zephyrproject\\zephyr\\drivers\\serial\\Kconfig",
-      53
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      108
     ]
   ],
   [
     "CONFIG_PINCTRL_KEEP_SLEEP_STATE",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      109
+    ]
   ],
   [
     "CONFIG_SYSCON",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      110
+    ]
   ],
   [
     "CONFIG_SOC_EARLY_INIT_HOOK",
@@ -1030,27 +1157,30 @@
     "y",
     "assign",
     [
-      "C:/Users/fyaih/zephyrproject/zephyr/boards/nxp/frdm_kl25z/frdm_kl25z_defconfig",
-      3
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      112
     ]
   ],
   [
     "CONFIG_WINSTREAM",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      113
+    ]
   ],
   [
     "CONFIG_COMMON_LIBC_MALLOC_ARENA_SIZE",
     "y",
     "int",
     "-1",
-    "default",
+    "assign",
     [
-      "C:\\Users\\fyaih\\zephyrproject\\zephyr\\lib\\libc\\common\\Kconfig",
-      64
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      114
     ]
   ],
   [
@@ -1068,19 +1198,22 @@
     "y",
     "bool",
     "y",
-    "default",
+    "assign",
     [
-      "C:\\Users\\fyaih\\zephyrproject\\zephyr\\arch\\Kconfig",
-      616
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      116
     ]
   ],
   [
     "CONFIG_REBOOT",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      117
+    ]
   ],
   [
     "CONFIG_GEN_IRQ_START_VECTOR",
@@ -1109,10 +1242,10 @@
     "y",
     "int",
     "4",
-    "default",
+    "assign",
     [
-      "C:\\Users\\fyaih\\zephyrproject\\zephyr\\arch\\Kconfig",
-      581
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      120
     ]
   ],
   [
@@ -1130,19 +1263,22 @@
     "CONFIG_BOOTLOADER_MCUBOOT",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      122
+    ]
   ],
   [
     "CONFIG_KERNEL_MEM_POOL",
     "y",
     "bool",
     "y",
-    "default",
+    "assign",
     [
-      "C:\\Users\\fyaih\\zephyrproject\\zephyr\\kernel\\Kconfig",
-      642
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      123
     ]
   ],
   [
@@ -1150,62 +1286,77 @@
     "y",
     "bool",
     "y",
-    "default",
+    "assign",
     [
-      "C:\\Users\\fyaih\\zephyrproject\\zephyr\\kernel\\Kconfig",
-      14
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      124
     ]
   ],
   [
     "CONFIG_OUTPUT_DISASSEMBLY",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      125
+    ]
   ],
   [
     "CONFIG_LINKER_USE_RELAX",
     "y",
     "bool",
     "y",
-    "default",
+    "assign",
     [
-      "C:\\Users\\fyaih\\zephyrproject\\zephyr\\Kconfig.zephyr",
-      349
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      126
     ]
   ],
   [
     "CONFIG_WATCHDOG",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      127
+    ]
   ],
   [
     "CONFIG_STATIC_INIT_GNU",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      128
+    ]
   ],
   [
     "CONFIG_BUILD_ONLY_NO_BLOBS",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      133
+    ]
   ],
   [
     "CONFIG_ACPI",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      146
+    ]
   ],
   [
     "CONFIG_ZEPHYR_ACPICA_MODULE",
@@ -1254,9 +1405,12 @@
     "CONFIG_CMSIS_DSP",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      163
+    ]
   ],
   [
     "CONFIG_ZEPHYR_CMSIS_NN_MODULE",
@@ -1273,9 +1427,12 @@
     "CONFIG_CMSIS_NN",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      170
+    ]
   ],
   [
     "CONFIG_ZEPHYR_CMSIS_6_MODULE",
@@ -1302,9 +1459,12 @@
     "CONFIG_CMSIS_M_CHECK_DEVICE_DEFINES",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      178
+    ]
   ],
   [
     "CONFIG_ZEPHYR_DHARA_MODULE",
@@ -1398,9 +1558,12 @@
     "CONFIG_ETHOS_U",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      224
+    ]
   ],
   [
     "CONFIG_ZEPHYR_HAL_ETHOS_U_MODULE",
@@ -1439,9 +1602,12 @@
     "CONFIG_USE_INFINEON_ABSTRACTION_RTOS",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      238
+    ]
   ],
   [
     "CONFIG_ZEPHYR_HAL_INTEL_MODULE",
@@ -1513,11 +1679,8 @@
     "y",
     "bool",
     "y",
-    "default",
-    [
-      "C:/Users/fyaih/zephyrproject/zephyr/modules/hal_nxp\\mcux/Kconfig.mcux",
-      42
-    ]
+    "assign",
+    null
   ],
   [
     "CONFIG_MCUX_DATA_QUICK_ACCESS_CUSTOM",
@@ -1532,11 +1695,8 @@
     "y",
     "bool",
     "y",
-    "default",
-    [
-      "C:/Users/fyaih/zephyrproject/zephyr/modules/hal_nxp\\mcux/Kconfig.mcux",
-      75
-    ]
+    "assign",
+    null
   ],
   [
     "CONFIG_MCUX_CODE_QUICK_ACCESS_CUSTOM",
@@ -1551,27 +1711,30 @@
     "y",
     "bool",
     "y",
-    "default",
-    [
-      "C:/Users/fyaih/zephyrproject/zephyr/modules/hal_nxp\\mcux/Kconfig.mcux",
-      110
-    ]
+    "assign",
+    null
   ],
   [
     "CONFIG_NXP_IEEE802154_MAC",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      267
+    ]
   ],
   [
     "CONFIG_NXP_MULTICORE",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      268
+    ]
   ],
   [
     "CONFIG_ZEPHYR_OPENISA_MODULE",
@@ -1610,9 +1773,12 @@
     "CONFIG_BT",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      278
+    ]
   ],
   [
     "CONFIG_ZEPHYR_HAL_RENESAS_MODULE",
@@ -1695,9 +1861,12 @@
     "CONFIG_TDK_HAL",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      317
+    ]
   ],
   [
     "CONFIG_ZEPHYR_HAL_TELINK_MODULE",
@@ -1758,9 +1927,12 @@
     "CONFIG_WIFI_NM_WPA_SUPPLICANT",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      341
+    ]
   ],
   [
     "CONFIG_ZEPHYR_HOSTAP_MODULE",
@@ -1821,9 +1993,12 @@
     "CONFIG_LIBSBC",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      358
+    ]
   ],
   [
     "CONFIG_ZEPHYR_LITTLEFS_MODULE",
@@ -1862,9 +2037,12 @@
     "CONFIG_HAS_SEMTECH_RADIO_DRIVERS",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      377
+    ]
   ],
   [
     "CONFIG_ZEPHYR_LVGL_MODULE",
@@ -1914,9 +2092,12 @@
     "CONFIG_PSA_CRYPTO",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      392
+    ]
   ],
   [
     "CONFIG_ZEPHYR_MCUBOOT_MODULE",
@@ -1966,9 +2147,12 @@
     "CONFIG_NANOPB",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      403
+    ]
   ],
   [
     "CONFIG_ZEPHYR_NRF_WIFI_MODULE",
@@ -1985,9 +2169,12 @@
     "CONFIG_NRF70_BUSLIB",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      410
+    ]
   ],
   [
     "CONFIG_ZEPHYR_OPEN_AMP_MODULE",
@@ -2004,9 +2191,12 @@
     "CONFIG_OPENTHREAD",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      418
+    ]
   ],
   [
     "CONFIG_ZEPHYR_OPENTHREAD_MODULE",
@@ -2023,9 +2213,12 @@
     "CONFIG_PERCEPIO_DFM",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      429
+    ]
   ],
   [
     "CONFIG_ZEPHYR_PERCEPIO_MODULE",
@@ -2042,9 +2235,12 @@
     "CONFIG_PICOLIBC_MODULE",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      436
+    ]
   ],
   [
     "CONFIG_ZEPHYR_PICOLIBC_MODULE",
@@ -2093,9 +2289,12 @@
     "CONFIG_USE_SEGGER_RTT",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      447
+    ]
   ],
   [
     "CONFIG_ZEPHYR_TF_M_TESTS_MODULE",
@@ -2134,9 +2333,12 @@
     "CONFIG_BUILD_WITH_TFA",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      457
+    ]
   ],
   [
     "CONFIG_ZEPHYR_TRUSTED_FIRMWARE_M_MODULE",
@@ -2175,9 +2377,12 @@
     "CONFIG_ZCBOR",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      476
+    ]
   ],
   [
     "CONFIG_ZEPHYR_NRF_HW_MODELS_MODULE",
@@ -2194,73 +2399,100 @@
     "CONFIG_LIBMETAL",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      480
+    ]
   ],
   [
     "CONFIG_LVGL",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      481
+    ]
   ],
   [
     "CONFIG_HAS_MEC_HAL",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      482
+    ]
   ],
   [
     "CONFIG_HAS_MPFS_HAL",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      483
+    ]
   ],
   [
     "CONFIG_HAS_MEC5_HAL",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      484
+    ]
   ],
   [
     "CONFIG_OPENAMP",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      485
+    ]
   ],
   [
     "CONFIG_MIPI_SYST_LIB",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      486
+    ]
   ],
   [
     "CONFIG_HAS_TELINK_DRIVERS",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      487
+    ]
   ],
   [
     "CONFIG_MCUBOOT_BOOTUTIL_LIB",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      488
+    ]
   ],
   [
     "CONFIG_BOARD",
@@ -2299,9 +2531,12 @@
     "CONFIG_NET_DRIVERS",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      502
+    ]
   ],
   [
     "CONFIG_BOARD_FRDM_KL25Z",
@@ -2424,17 +2659,23 @@
     "CONFIG_HWINFO",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      523
+    ]
   ],
   [
     "CONFIG_BUILD_OUTPUT_INFO_HEADER",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      524
+    ]
   ],
   [
     "CONFIG_HAS_OSC",
@@ -2485,10 +2726,10 @@
     "y",
     "bool",
     "y",
-    "default",
+    "assign",
     [
-      "C:/Users/fyaih/zephyrproject/zephyr/soc/nxp/kinetis/Kconfig",
-      92
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      530
     ]
   ],
   [
@@ -2496,10 +2737,10 @@
     "y",
     "hex",
     "0x400",
-    "default",
+    "assign",
     [
-      "C:/Users/fyaih/zephyrproject/zephyr/soc/nxp/kinetis/Kconfig",
-      102
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      531
     ]
   ],
   [
@@ -2507,10 +2748,10 @@
     "y",
     "hex",
     "0xfe",
-    "default",
+    "assign",
     [
-      "C:/Users/fyaih/zephyrproject/zephyr/soc/nxp/kinetis/Kconfig",
-      107
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      532
     ]
   ],
   [
@@ -2518,10 +2759,10 @@
     "y",
     "hex",
     "0xff",
-    "default",
+    "assign",
     [
-      "C:/Users/fyaih/zephyrproject/zephyr/soc/nxp/kinetis/Kconfig",
-      124
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      533
     ]
   ],
   [
@@ -2529,10 +2770,10 @@
     "y",
     "hex",
     "0xff",
-    "default",
+    "assign",
     [
-      "C:/Users/fyaih/zephyrproject/zephyr/soc/nxp/kinetis/Kconfig",
-      132
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      534
     ]
   ],
   [
@@ -2540,10 +2781,10 @@
     "y",
     "int",
     "40",
-    "default",
+    "assign",
     [
-      "C:\\Users\\fyaih\\zephyrproject\\zephyr\\drivers\\gpio\\Kconfig",
-      50
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      535
     ]
   ],
   [
@@ -2561,9 +2802,12 @@
     "CONFIG_EXTRA_EXCEPTION_INFO",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      539
+    ]
   ],
   [
     "CONFIG_ARCH_HAS_SINGLE_THREAD_SUPPORT",
@@ -2599,9 +2843,12 @@
     "CONFIG_ARM_ZIMAGE_HEADER",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      547
+    ]
   ],
   [
     "CONFIG_ISA_THUMB2",
@@ -2629,10 +2876,10 @@
     "y",
     "bool",
     "y",
-    "default",
+    "assign",
     [
-      "C:/Users/fyaih/zephyrproject/zephyr/arch/arm\\core/Kconfig",
-      143
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      550
     ]
   ],
   [
@@ -2640,37 +2887,43 @@
     "y",
     "bool",
     "y",
-    "default",
+    "assign",
     [
-      "C:/Users/fyaih/zephyrproject/zephyr/arch/arm\\core/Kconfig",
-      161
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      551
     ]
   ],
   [
     "CONFIG_RUNTIME_NMI",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      552
+    ]
   ],
   [
     "CONFIG_PLATFORM_SPECIFIC_INIT",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      553
+    ]
   ],
   [
     "CONFIG_FAULT_DUMP",
     "y",
     "int",
     "2",
-    "default",
+    "assign",
     [
-      "C:/Users/fyaih/zephyrproject/zephyr/arch/arm\\core/Kconfig",
-      205
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      554
     ]
   ],
   [
@@ -2678,10 +2931,10 @@
     "y",
     "bool",
     "y",
-    "default",
+    "assign",
     [
-      "C:/Users/fyaih/zephyrproject/zephyr/arch/arm\\core/Kconfig",
-      336
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      555
     ]
   ],
   [
@@ -2689,11 +2942,8 @@
     "y",
     "bool",
     "y",
-    "default",
-    [
-      "C:/Users/fyaih/zephyrproject/zephyr/arch/arm\\core/Kconfig",
-      344
-    ]
+    "assign",
+    null
   ],
   [
     "CONFIG_FP16_ALT",
@@ -2748,28 +2998,31 @@
     "CONFIG_SW_VECTOR_RELAY",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      566
+    ]
   ],
   [
     "CONFIG_NULL_POINTER_EXCEPTION_DETECTION_NONE",
     "y",
     "bool",
     "y",
-    "default",
-    [
-      "C:/Users/fyaih/zephyrproject/zephyr/arch/arm\\core\\cortex_m/Kconfig",
-      422
-    ]
+    "assign",
+    null
   ],
   [
     "CONFIG_ARM_GCC_FP_WORKAROUND",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      570
+    ]
   ],
   [
     "CONFIG_ARCH_HAS_LLEXT_VENEERS",
@@ -2805,9 +3058,12 @@
     "CONFIG_SEMIHOST",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      580
+    ]
   ],
   [
     "CONFIG_ARCH_SUPPORTS_ROM_OFFSET",
@@ -2824,9 +3080,12 @@
     "CONFIG_EXCEPTION_DUMP_HOOK",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      582
+    ]
   ],
   [
     "CONFIG_LITTLE_ENDIAN",
@@ -2844,10 +3103,10 @@
     "y",
     "int",
     "16",
-    "default",
+    "assign",
     [
-      "C:\\Users\\fyaih\\zephyrproject\\zephyr\\arch\\Kconfig",
-      247
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      584
     ]
   ],
   [
@@ -2855,19 +3114,22 @@
     "y",
     "hex",
     "0x1ffff000",
-    "default",
+    "assign",
     [
-      "C:\\Users\\fyaih\\zephyrproject\\zephyr\\arch\\Kconfig",
-      256
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      585
     ]
   ],
   [
     "CONFIG_NOINIT_SNIPPET_FIRST",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      586
+    ]
   ],
   [
     "CONFIG_GEN_PRIV_STACKS",
@@ -2883,35 +3145,44 @@
     "CONFIG_STACK_GROWS_UP",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      588
+    ]
   ],
   [
     "CONFIG_FRAME_POINTER",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      589
+    ]
   ],
   [
     "CONFIG_ISR_TABLES_LOCAL_DECLARATION",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      594
+    ]
   ],
   [
     "CONFIG_ARCH_DEVICE_STATE_ALIGN",
     "y",
     "int",
     "4",
-    "default",
+    "assign",
     [
-      "C:\\Users\\fyaih\\zephyrproject\\zephyr\\arch\\Kconfig",
-      591
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      595
     ]
   ],
   [
@@ -2919,11 +3190,8 @@
     "y",
     "bool",
     "y",
-    "default",
-    [
-      "C:\\Users\\fyaih\\zephyrproject\\zephyr\\arch\\Kconfig",
-      599
-    ]
+    "assign",
+    null
   ],
   [
     "CONFIG_IRQ_VECTOR_TABLE_JUMP_BY_CODE",
@@ -2938,11 +3206,8 @@
     "y",
     "bool",
     "y",
-    "default",
-    [
-      "C:\\Users\\fyaih\\zephyrproject\\zephyr\\arch\\Kconfig",
-      627
-    ]
+    "assign",
+    null
   ],
   [
     "CONFIG_GEN_SW_ISR_TABLE_SWITCH",
@@ -2956,28 +3221,34 @@
     "CONFIG_SRAM_SW_ISR_TABLE",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      600
+    ]
   ],
   [
     "CONFIG_EXCEPTION_DEBUG",
     "y",
     "bool",
     "y",
-    "default",
+    "assign",
     [
-      "C:\\Users\\fyaih\\zephyrproject\\zephyr\\arch\\Kconfig",
-      709
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      601
     ]
   ],
   [
     "CONFIG_SIMPLIFIED_EXCEPTION_CODES",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      602
+    ]
   ],
   [
     "CONFIG_ARCH_HAS_RAMFUNC_SUPPORT",
@@ -3113,9 +3384,12 @@
     "CONFIG_CACHE_DOUBLEMAP",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      633
+    ]
   ],
   [
     "CONFIG_TOOLCHAIN_HAS_BUILTIN_FFS",
@@ -3143,10 +3417,10 @@
     "y",
     "int",
     "16",
-    "default",
+    "assign",
     [
-      "C:\\Users\\fyaih\\zephyrproject\\zephyr\\kernel\\Kconfig",
-      30
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      642
     ]
   ],
   [
@@ -3154,10 +3428,10 @@
     "y",
     "int",
     "0",
-    "default",
+    "assign",
     [
-      "C:\\Users\\fyaih\\zephyrproject\\zephyr\\kernel\\Kconfig",
-      73
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      643
     ]
   ],
   [
@@ -3187,46 +3461,52 @@
     "y",
     "int",
     "-128",
-    "default",
+    "assign",
     [
-      "C:\\Users\\fyaih\\zephyrproject\\zephyr\\kernel\\Kconfig",
-      86
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      646
     ]
   ],
   [
     "CONFIG_SCHED_DEADLINE",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      647
+    ]
   ],
   [
     "CONFIG_THREAD_STACK_INFO",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      648
+    ]
   ],
   [
     "CONFIG_THREAD_CUSTOM_DATA",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      649
+    ]
   ],
   [
     "CONFIG_SCHED_SIMPLE",
     "y",
     "bool",
     "y",
-    "default",
-    [
-      "C:\\Users\\fyaih\\zephyrproject\\zephyr\\kernel\\Kconfig",
-      258
-    ]
+    "assign",
+    null
   ],
   [
     "CONFIG_SCHED_SCALABLE",
@@ -3257,107 +3537,128 @@
     "y",
     "bool",
     "y",
-    "default",
-    [
-      "C:\\Users\\fyaih\\zephyrproject\\zephyr\\kernel\\Kconfig",
-      310
-    ]
+    "assign",
+    null
   ],
   [
     "CONFIG_CURRENT_THREAD_USE_TLS",
     "y",
     "bool",
     "y",
-    "default",
+    "assign",
     [
-      "C:\\Users\\fyaih\\zephyrproject\\zephyr\\kernel\\Kconfig",
-      349
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      659
     ]
   ],
   [
     "CONFIG_NONZERO_SPINLOCK_SIZE",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      660
+    ]
   ],
   [
     "CONFIG_THREAD_MONITOR",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      666
+    ]
   ],
   [
     "CONFIG_THREAD_NAME",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      667
+    ]
   ],
   [
     "CONFIG_THREAD_RUNTIME_STATS",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      668
+    ]
   ],
   [
     "CONFIG_THREAD_RUNTIME_STACK_SAFETY",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      669
+    ]
   ],
   [
     "CONFIG_OBJ_CORE",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      672
+    ]
   ],
   [
     "CONFIG_WORKQUEUE_WORK_TIMEOUT",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      673
+    ]
   ],
   [
     "CONFIG_SYSTEM_WORKQUEUE_PRIORITY",
     "y",
     "int",
     "-1",
-    "default",
+    "assign",
     [
-      "C:\\Users\\fyaih\\zephyrproject\\zephyr\\kernel\\Kconfig",
-      508
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      678
     ]
   ],
   [
     "CONFIG_SYSTEM_WORKQUEUE_NO_YIELD",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      679
+    ]
   ],
   [
     "CONFIG_SYSTEM_WORKQUEUE_WORK_TIMEOUT_MS",
     "y",
     "int",
     "0",
-    "default",
+    "assign",
     [
-      "C:\\Users\\fyaih\\zephyrproject\\zephyr\\kernel\\Kconfig",
-      526
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      680
     ]
   ],
   [
@@ -3375,10 +3676,10 @@
     "y",
     "bool",
     "y",
-    "default",
+    "assign",
     [
-      "C:\\Users\\fyaih\\zephyrproject\\zephyr\\kernel\\Kconfig",
-      552
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      692
     ]
   ],
   [
@@ -3386,89 +3687,110 @@
     "y",
     "int",
     "0",
-    "default",
+    "assign",
     [
-      "C:\\Users\\fyaih\\zephyrproject\\zephyr\\kernel\\Kconfig",
-      571
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      693
     ]
   ],
   [
     "CONFIG_TIMESLICE_PER_THREAD",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      694
+    ]
   ],
   [
     "CONFIG_TIMER_OBSERVER",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      695
+    ]
   ],
   [
     "CONFIG_POLL",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      701
+    ]
   ],
   [
     "CONFIG_MEM_SLAB_POINTER_VALIDATE",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      702
+    ]
   ],
   [
     "CONFIG_MEM_SLAB_TRACE_MAX_UTILIZATION",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      703
+    ]
   ],
   [
     "CONFIG_NUM_MBOX_ASYNC_MSGS",
     "y",
     "int",
     "10",
-    "default",
+    "assign",
     [
-      "C:\\Users\\fyaih\\zephyrproject\\zephyr\\kernel\\Kconfig",
-      620
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      704
     ]
   ],
   [
     "CONFIG_EVENTS",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      705
+    ]
   ],
   [
     "CONFIG_HEAP_MEM_POOL_SIZE",
     "y",
     "int",
     "0",
-    "default",
+    "assign",
     [
-      "C:\\Users\\fyaih\\zephyrproject\\zephyr\\kernel\\Kconfig",
-      652
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      706
     ]
   ],
   [
     "CONFIG_HEAP_MEM_POOL_IGNORE_MIN",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      707
+    ]
   ],
   [
     "CONFIG_SWAP_NONATOMIC",
@@ -3485,10 +3807,10 @@
     "y",
     "bool",
     "y",
-    "default",
+    "assign",
     [
-      "C:\\Users\\fyaih\\zephyrproject\\zephyr\\kernel\\Kconfig",
-      746
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      711
     ]
   ],
   [
@@ -3496,10 +3818,10 @@
     "y",
     "int",
     "365",
-    "default",
+    "assign",
     [
-      "C:\\Users\\fyaih\\zephyrproject\\zephyr\\kernel\\Kconfig",
-      757
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      712
     ]
   ],
   [
@@ -3537,35 +3859,44 @@
     "CONFIG_DEVICE_MUTABLE",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      732
+    ]
   ],
   [
     "CONFIG_DEVICE_DT_METADATA",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      733
+    ]
   ],
   [
     "CONFIG_DEVICE_DEINIT_SUPPORT",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      734
+    ]
   ],
   [
     "CONFIG_KERNEL_INIT_PRIORITY_OBJECTS",
     "y",
     "int",
     "30",
-    "default",
+    "assign",
     [
-      "C:\\Users\\fyaih\\zephyrproject\\zephyr\\kernel\\Kconfig.device",
-      50
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      740
     ]
   ],
   [
@@ -3573,10 +3904,10 @@
     "y",
     "int",
     "35",
-    "default",
+    "assign",
     [
-      "C:\\Users\\fyaih\\zephyrproject\\zephyr\\kernel\\Kconfig.device",
-      58
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      741
     ]
   ],
   [
@@ -3584,10 +3915,10 @@
     "y",
     "int",
     "40",
-    "default",
+    "assign",
     [
-      "C:\\Users\\fyaih\\zephyrproject\\zephyr\\kernel\\Kconfig.device",
-      66
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      742
     ]
   ],
   [
@@ -3595,10 +3926,10 @@
     "y",
     "int",
     "50",
-    "default",
+    "assign",
     [
-      "C:\\Users\\fyaih\\zephyrproject\\zephyr\\kernel\\Kconfig.device",
-      72
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      743
     ]
   ],
   [
@@ -3606,59 +3937,77 @@
     "y",
     "int",
     "90",
-    "default",
+    "assign",
     [
-      "C:\\Users\\fyaih\\zephyrproject\\zephyr\\kernel\\Kconfig.device",
-      80
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      744
     ]
   ],
   [
     "CONFIG_SOC_EARLY_RESET_HOOK",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      760
+    ]
   ],
   [
     "CONFIG_SOC_PREP_HOOK",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      761
+    ]
   ],
   [
     "CONFIG_SOC_LATE_INIT_HOOK",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      762
+    ]
   ],
   [
     "CONFIG_SOC_PER_CORE_INIT_HOOK",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      763
+    ]
   ],
   [
     "CONFIG_BOARD_EARLY_INIT_HOOK",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      764
+    ]
   ],
   [
     "CONFIG_BOARD_LATE_INIT_HOOK",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      765
+    ]
   ],
   [
     "CONFIG_ADC",
@@ -3667,43 +4016,52 @@
     "y",
     "assign",
     [
-      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/prj.conf",
-      2
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      771
     ]
   ],
   [
     "CONFIG_ADC_ASYNC",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      772
+    ]
   ],
   [
     "CONFIG_ADC_STREAM",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      773
+    ]
   ],
   [
     "CONFIG_ADC_DEFAULT_RTIO",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      774
+    ]
   ],
   [
     "CONFIG_ADC_MCUX_ADC16",
     "y",
     "bool",
     "y",
-    "default",
+    "assign",
     [
-      "C:\\Users\\fyaih\\zephyrproject\\zephyr\\drivers\\adc\\Kconfig.mcux",
-      16
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      775
     ]
   ],
   [
@@ -3711,11 +4069,8 @@
     "y",
     "bool",
     "y",
-    "default",
-    [
-      "C:\\Users\\fyaih\\zephyrproject\\zephyr\\drivers\\adc\\Kconfig.mcux",
-      60
-    ]
+    "assign",
+    null
   ],
   [
     "CONFIG_ADC_MCUX_ADC16_CLK_DIV_RATIO_2",
@@ -3746,11 +4101,8 @@
     "y",
     "bool",
     "y",
-    "default",
-    [
-      "C:\\Users\\fyaih\\zephyrproject\\zephyr\\drivers\\adc\\Kconfig.mcux",
-      78
-    ]
+    "assign",
+    null
   ],
   [
     "CONFIG_ADC_MCUX_ADC16_VREF_ALTERNATE",
@@ -3764,75 +4116,99 @@
     "CONFIG_AUDIO",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      782
+    ]
   ],
   [
     "CONFIG_AUXDISPLAY",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      783
+    ]
   ],
   [
     "CONFIG_BBRAM",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      784
+    ]
   ],
   [
     "CONFIG_BIOMETRICS",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      785
+    ]
   ],
   [
     "CONFIG_BUZZER",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      786
+    ]
   ],
   [
     "CONFIG_CAN",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      787
+    ]
   ],
   [
     "CONFIG_CHARGER",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      788
+    ]
   ],
   [
     "CONFIG_CLOCK_CONTROL_FIXED_RATE_CLOCK",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      789
+    ]
   ],
   [
     "CONFIG_CLOCK_CONTROL_MCUX_MCG",
     "y",
     "bool",
     "y",
-    "default",
+    "assign",
     [
-      "C:\\Users\\fyaih\\zephyrproject\\zephyr\\drivers\\clock_control\\Kconfig.nxp",
-      20
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      790
     ]
   ],
   [
@@ -3840,10 +4216,10 @@
     "y",
     "bool",
     "y",
-    "default",
+    "assign",
     [
-      "C:\\Users\\fyaih\\zephyrproject\\zephyr\\drivers\\clock_control\\Kconfig.nxp",
-      48
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      791
     ]
   ],
   [
@@ -3851,29 +4227,32 @@
     "y",
     "int",
     "40",
-    "default",
+    "assign",
     [
-      "C:\\Users\\fyaih\\zephyrproject\\zephyr\\drivers\\clock_control\\Kconfig.tisci",
-      13
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      792
     ]
   ],
   [
     "CONFIG_COMPARATOR",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      793
+    ]
   ],
   [
     "CONFIG_CONSOLE_INPUT_MAX_LINE_LEN",
     "y",
     "int",
     "128",
-    "default",
+    "assign",
     [
-      "C:\\Users\\fyaih\\zephyrproject\\zephyr\\drivers\\console\\Kconfig",
-      16
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      794
     ]
   ],
   [
@@ -3890,19 +4269,22 @@
     "CONFIG_CONSOLE_HANDLER",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      796
+    ]
   ],
   [
     "CONFIG_CONSOLE_INIT_PRIORITY",
     "y",
     "int",
     "60",
-    "default",
+    "assign",
     [
-      "C:\\Users\\fyaih\\zephyrproject\\zephyr\\drivers\\console\\Kconfig",
-      37
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      797
     ]
   ],
   [
@@ -3912,279 +4294,372 @@
     "y",
     "assign",
     [
-      "C:/Users/fyaih/zephyrproject/zephyr/boards/nxp/frdm_kl25z/frdm_kl25z_defconfig",
-      4
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      798
     ]
   ],
   [
     "CONFIG_UART_CONSOLE_DEBUG_SERVER_HOOKS",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      799
+    ]
   ],
   [
     "CONFIG_UART_CONSOLE_MCUMGR",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      800
+    ]
   ],
   [
     "CONFIG_RAM_CONSOLE",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      801
+    ]
   ],
   [
     "CONFIG_IPM_CONSOLE_SENDER",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      802
+    ]
   ],
   [
     "CONFIG_IPM_CONSOLE_RECEIVER",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      803
+    ]
   ],
   [
     "CONFIG_UART_MCUMGR",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      804
+    ]
   ],
   [
     "CONFIG_EFI_CONSOLE",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      805
+    ]
   ],
   [
     "CONFIG_COREDUMP_DEVICE",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      806
+    ]
   ],
   [
     "CONFIG_CRC_DRIVER",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      807
+    ]
   ],
   [
     "CONFIG_CRYPTO",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      808
+    ]
   ],
   [
     "CONFIG_DAC",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      809
+    ]
   ],
   [
     "CONFIG_DAI",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      810
+    ]
   ],
   [
     "CONFIG_DALI",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      811
+    ]
   ],
   [
     "CONFIG_DEBUG_DRIVER",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      812
+    ]
   ],
   [
     "CONFIG_DISK_DRIVERS",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      813
+    ]
   ],
   [
     "CONFIG_DISPLAY",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      814
+    ]
   ],
   [
     "CONFIG_DMA",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      815
+    ]
   ],
   [
     "CONFIG_DP_DRIVER",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      816
+    ]
   ],
   [
     "CONFIG_EDAC",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      817
+    ]
   ],
   [
     "CONFIG_EEPROM",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      818
+    ]
   ],
   [
     "CONFIG_ENTROPY_GENERATOR",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      819
+    ]
   ],
   [
     "CONFIG_ESPI",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      820
+    ]
   ],
   [
     "CONFIG_MDIO",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      821
+    ]
   ],
   [
     "CONFIG_ARM_SCMI",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      826
+    ]
   ],
   [
     "CONFIG_FLASH_FILL_GENERIC_IMPLEMENTATION",
     "y",
     "bool",
     "y",
-    "default",
+    "assign",
     [
-      "C:\\Users\\fyaih\\zephyrproject\\zephyr\\drivers\\flash\\Kconfig",
-      72
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      829
     ]
   ],
   [
     "CONFIG_FPGA",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      830
+    ]
   ],
   [
     "CONFIG_FUEL_GAUGE",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      831
+    ]
   ],
   [
     "CONFIG_GPIO_GET_DIRECTION",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      832
+    ]
   ],
   [
     "CONFIG_GPIO_GET_CONFIG",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      833
+    ]
   ],
   [
     "CONFIG_GPIO_ENABLE_DISABLE_INTERRUPT",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      834
+    ]
   ],
   [
     "CONFIG_GPIO_MCUX",
     "y",
     "bool",
     "y",
-    "default",
+    "assign",
     [
-      "C:\\Users\\fyaih\\zephyrproject\\zephyr\\drivers\\gpio\\Kconfig.mcux",
-      9
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      835
     ]
   ],
   [
     "CONFIG_HAPTICS",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      836
+    ]
   ],
   [
     "CONFIG_HWSPINLOCK",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      837
+    ]
   ],
   [
     "CONFIG_I2C",
@@ -4193,8 +4668,8 @@
     "y",
     "assign",
     [
-      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/prj.conf",
-      4
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      838
     ]
   ],
   [
@@ -4202,77 +4677,98 @@
     "y",
     "int",
     "16",
-    "default",
+    "assign",
     [
-      "C:\\Users\\fyaih\\zephyrproject\\zephyr\\drivers\\i2c\\Kconfig",
-      27
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      839
     ]
   ],
   [
     "CONFIG_I2C_CALLBACK",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      840
+    ]
   ],
   [
     "CONFIG_I2C_ALLOW_NO_STOP_TRANSACTIONS",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      841
+    ]
   ],
   [
     "CONFIG_I2C_BUS_RECOVERY",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      842
+    ]
   ],
   [
     "CONFIG_I2C_RTIO",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      843
+    ]
   ],
   [
     "CONFIG_I2C_TARGET",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      844
+    ]
   ],
   [
     "CONFIG_I2C_DW_EXTENDED_SUPPORT",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      845
+    ]
   ],
   [
     "CONFIG_I2C_DW_PM_POLICY_STATE_LOCK",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      846
+    ]
   ],
   [
     "CONFIG_I2C_INIT_PRIORITY",
     "y",
     "int",
     "50",
-    "default",
+    "assign",
     [
-      "C:\\Users\\fyaih\\zephyrproject\\zephyr\\drivers\\i2c\\Kconfig",
-      208
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      847
     ]
   ],
   [
@@ -4280,142 +4776,187 @@
     "y",
     "bool",
     "y",
-    "default",
+    "assign",
     [
-      "C:\\Users\\fyaih\\zephyrproject\\zephyr\\drivers\\i2c\\Kconfig",
-      244
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      848
     ]
   ],
   [
     "CONFIG_I2S",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      849
+    ]
   ],
   [
     "CONFIG_I3C",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      850
+    ]
   ],
   [
     "CONFIG_INTC_INIT_PRIORITY",
     "y",
     "int",
     "40",
-    "default",
+    "assign",
     [
-      "C:\\Users\\fyaih\\zephyrproject\\zephyr\\drivers\\interrupt_controller\\Kconfig",
-      45
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      855
     ]
   ],
   [
     "CONFIG_IPM",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      858
+    ]
   ],
   [
     "CONFIG_LED",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      859
+    ]
   ],
   [
     "CONFIG_LED_STRIP",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      860
+    ]
   ],
   [
     "CONFIG_LORA",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      861
+    ]
   ],
   [
     "CONFIG_MBOX",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      862
+    ]
   ],
   [
     "CONFIG_MIPI_DBI",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      863
+    ]
   ],
   [
     "CONFIG_NXP_INPUTMUX",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      874
+    ]
   ],
   [
     "CONFIG_MM_DRV",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      877
+    ]
   ],
   [
     "CONFIG_MSPI",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      878
+    ]
   ],
   [
     "CONFIG_OPAMP",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      879
+    ]
   ],
   [
     "CONFIG_PCIE",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      880
+    ]
   ],
   [
     "CONFIG_PCIE_ENDPOINT",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      881
+    ]
   ],
   [
     "CONFIG_PECI",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      882
+    ]
   ],
   [
     "CONFIG_PINCTRL",
@@ -4433,108 +4974,144 @@
     "CONFIG_PINCTRL_DYNAMIC",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      884
+    ]
   ],
   [
     "CONFIG_PINCTRL_MCHP_COMMON",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      885
+    ]
   ],
   [
     "CONFIG_PINCTRL_NPCX_EX",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      886
+    ]
   ],
   [
     "CONFIG_PINCTRL_NXP_PORT",
     "y",
     "bool",
     "y",
-    "default",
+    "assign",
     [
-      "C:\\Users\\fyaih\\zephyrproject\\zephyr\\drivers\\pinctrl\\Kconfig.nxp_port",
-      6
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      887
     ]
   ],
   [
     "CONFIG_PS2",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      888
+    ]
   ],
   [
     "CONFIG_PSI5",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      889
+    ]
   ],
   [
     "CONFIG_PTP_CLOCK",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      890
+    ]
   ],
   [
     "CONFIG_PWM",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      891
+    ]
   ],
   [
     "CONFIG_RETAINED_MEM",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      892
+    ]
   ],
   [
     "CONFIG_RTC",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      893
+    ]
   ],
   [
     "CONFIG_SDHC",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      894
+    ]
   ],
   [
     "CONFIG_SENSOR",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      895
+    ]
   ],
   [
     "CONFIG_SENT",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      896
+    ]
   ],
   [
     "CONFIG_SERIAL_HAS_DRIVER",
@@ -4561,112 +5138,142 @@
     "y",
     "int",
     "50",
-    "default",
+    "assign",
     [
-      "C:\\Users\\fyaih\\zephyrproject\\zephyr\\drivers\\serial\\Kconfig",
-      36
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      903
     ]
   ],
   [
     "CONFIG_UART_LINE_CTRL",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      904
+    ]
   ],
   [
     "CONFIG_UART_DRV_CMD",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      905
+    ]
   ],
   [
     "CONFIG_UART_WIDE_DATA",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      906
+    ]
   ],
   [
     "CONFIG_UART_ASYNC_RX_HELPER",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      907
+    ]
   ],
   [
     "CONFIG_UART_MCUX_LPSCI",
     "y",
     "bool",
     "y",
-    "default",
+    "assign",
     [
-      "C:\\Users\\fyaih\\zephyrproject\\zephyr\\drivers\\serial\\Kconfig.mcux_lpsci",
-      8
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      912
     ]
   ],
   [
     "CONFIG_UART_NPCX_FIFO_EX",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      913
+    ]
   ],
   [
     "CONFIG_SMBUS",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      914
+    ]
   ],
   [
     "CONFIG_STEPPER",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      915
+    ]
   ],
   [
     "CONFIG_TIMEAWARE_GPIO",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      916
+    ]
   ],
   [
     "CONFIG_TIMER_READS_ITS_FREQUENCY_AT_RUNTIME",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      921
+    ]
   ],
   [
     "CONFIG_SYSTEM_CLOCK_SLOPPY_IDLE",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      922
+    ]
   ],
   [
     "CONFIG_SYSTEM_CLOCK_INIT_PRIORITY",
     "y",
     "int",
     "0",
-    "default",
+    "assign",
     [
-      "C:\\Users\\fyaih\\zephyrproject\\zephyr\\drivers\\timer\\Kconfig",
-      55
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      923
     ]
   ],
   [
@@ -4703,41 +5310,56 @@
     "CONFIG_CORTEX_M_SYSTICK_64BIT_CYCLE_COUNTER",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      927
+    ]
   ],
   [
     "CONFIG_CORTEX_M_SYSTICK_LPM_TIMER_NONE",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      928
+    ]
   ],
   [
     "CONFIG_CORTEX_M_SYSTICK_LPM_TIMER_COUNTER",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      929
+    ]
   ],
   [
     "CONFIG_CORTEX_M_SYSTICK_LPM_TIMER_HOOKS",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      930
+    ]
   ],
   [
     "CONFIG_CORTEX_M_SYSTICK_RESET_BY_LPM",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      931
+    ]
   ],
   [
     "CONFIG_SYSTEM_TIMER_HAS_LPM_COMPANION_SUPPORT",
@@ -4754,144 +5376,195 @@
     "y",
     "bool",
     "y",
-    "default",
+    "assign",
     null
   ],
   [
     "CONFIG_UAOL",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      936
+    ]
   ],
   [
     "CONFIG_USB_BC12",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      937
+    ]
   ],
   [
     "CONFIG_UDC_DRIVER",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      938
+    ]
   ],
   [
     "CONFIG_UHC_DRIVER",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      939
+    ]
   ],
   [
     "CONFIG_UVB",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      940
+    ]
   ],
   [
     "CONFIG_USB_DEVICE_DRIVER",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      941
+    ]
   ],
   [
     "CONFIG_USBC_TCPC_DRIVER",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      948
+    ]
   ],
   [
     "CONFIG_USBC_VBUS_DRIVER",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      949
+    ]
   ],
   [
     "CONFIG_USBC_PPC_DRIVER",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      950
+    ]
   ],
   [
     "CONFIG_VIDEO",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      951
+    ]
   ],
   [
     "CONFIG_VIRTIO",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      952
+    ]
   ],
   [
     "CONFIG_VIRTUALIZATION",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      953
+    ]
   ],
   [
     "CONFIG_W1",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      954
+    ]
   ],
   [
     "CONFIG_TEE",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      955
+    ]
   ],
   [
     "CONFIG_REQUIRES_FULL_LIBC",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      958
+    ]
   ],
   [
     "CONFIG_REQUIRES_FLOAT_PRINTF",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      959
+    ]
   ],
   [
     "CONFIG_LIBC_ALLOW_LESS_THAN_64BIT_TIME",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      960
+    ]
   ],
   [
     "CONFIG_FULL_LIBC_SUPPORTED",
@@ -4938,11 +5611,8 @@
     "y",
     "bool",
     "y",
-    "default",
-    [
-      "C:\\Users\\fyaih\\zephyrproject\\zephyr\\lib\\libc\\Kconfig",
-      81
-    ]
+    "assign",
+    null
   ],
   [
     "CONFIG_EXTERNAL_LIBC",
@@ -4966,17 +5636,23 @@
     "CONFIG_COMMON_LIBC_ASCTIME_R",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      972
+    ]
   ],
   [
     "CONFIG_COMMON_LIBC_CTIME_R",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      973
+    ]
   ],
   [
     "CONFIG_COMMON_LIBC_TIME",
@@ -4993,9 +5669,10 @@
     "y",
     "bool",
     "y",
-    "imply",
+    "assign",
     [
-      "PICOLIBC && PICOLIBC_SUPPORTED && <choice LIBC_IMPLEMENTATION>"
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      975
     ]
   ],
   [
@@ -5003,10 +5680,10 @@
     "y",
     "bool",
     "y",
-    "default",
+    "assign",
     [
-      "C:\\Users\\fyaih\\zephyrproject\\zephyr\\lib\\libc\\common\\Kconfig",
-      88
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      976
     ]
   ],
   [
@@ -5014,19 +5691,22 @@
     "y",
     "bool",
     "y",
-    "default",
+    "assign",
     [
-      "C:\\Users\\fyaih\\zephyrproject\\zephyr\\lib\\libc\\common\\Kconfig",
-      97
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      977
     ]
   ],
   [
     "CONFIG_COMMON_LIBC_REMOVE",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      978
+    ]
   ],
   [
     "CONFIG_LIBC_ERRNO",
@@ -5043,10 +5723,10 @@
     "y",
     "bool",
     "y",
-    "default",
+    "assign",
     [
-      "C:\\Users\\fyaih\\zephyrproject\\zephyr\\lib\\libc\\common\\Kconfig",
-      132
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      980
     ]
   ],
   [
@@ -5062,11 +5742,8 @@
     "y",
     "bool",
     "y",
-    "default",
-    [
-      "C:\\Users\\fyaih\\zephyrproject\\zephyr\\lib\\libc\\picolibc\\Kconfig",
-      8
-    ]
+    "assign",
+    null
   ],
   [
     "CONFIG_PICOLIBC_IO_FLOAT",
@@ -5081,21 +5758,18 @@
     "y",
     "bool",
     "y",
-    "default",
-    [
-      "C:\\Users\\fyaih\\zephyrproject\\zephyr\\lib\\libc\\picolibc\\Kconfig",
-      34
-    ]
+    "assign",
+    null
   ],
   [
     "CONFIG_STDOUT_CONSOLE",
     "y",
     "bool",
     "y",
-    "default",
+    "assign",
     [
-      "C:\\Users\\fyaih\\zephyrproject\\zephyr\\lib\\libc\\Kconfig",
-      173
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      985
     ]
   ],
   [
@@ -5113,87 +5787,111 @@
     "CONFIG_CPP",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      992
+    ]
   ],
   [
     "CONFIG_SYS_HASH_FUNC32",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      1002
+    ]
   ],
   [
     "CONFIG_SYS_HASH_MAP",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      1008
+    ]
   ],
   [
     "CONFIG_SYS_HEAP_VALIDATE",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      1014
+    ]
   ],
   [
     "CONFIG_SYS_HEAP_STRESS",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      1015
+    ]
   ],
   [
     "CONFIG_SYS_HEAP_INFO",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      1016
+    ]
   ],
   [
     "CONFIG_SYS_HEAP_ALLOC_LOOPS",
     "y",
     "int",
     "3",
-    "default",
+    "assign",
     [
-      "C:\\Users\\fyaih\\zephyrproject\\zephyr\\lib\\heap\\Kconfig",
-      35
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      1017
     ]
   ],
   [
     "CONFIG_SYS_HEAP_RUNTIME_STATS",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      1018
+    ]
   ],
   [
     "CONFIG_SYS_HEAP_ARRAY_SIZE",
     "y",
     "int",
     "0",
-    "default",
+    "assign",
     [
-      "C:\\Users\\fyaih\\zephyrproject\\zephyr\\lib\\heap\\Kconfig",
-      56
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      1019
     ]
   ],
   [
     "CONFIG_SYS_HEAP_LISTENER",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      1020
+    ]
   ],
   [
     "CONFIG_SYS_HEAP_HARDENING_NONE",
@@ -5208,11 +5906,8 @@
     "y",
     "bool",
     "y",
-    "default",
-    [
-      "C:\\Users\\fyaih\\zephyrproject\\zephyr\\lib\\heap\\Kconfig",
-      83
-    ]
+    "assign",
+    null
   ],
   [
     "CONFIG_SYS_HEAP_HARDENING_MODERATE",
@@ -5254,11 +5949,8 @@
     "y",
     "bool",
     "y",
-    "default",
-    [
-      "C:\\Users\\fyaih\\zephyrproject\\zephyr\\lib\\heap\\Kconfig",
-      178
-    ]
+    "assign",
+    null
   ],
   [
     "CONFIG_SYS_HEAP_BIG_ONLY",
@@ -5280,83 +5972,110 @@
     "CONFIG_MULTI_HEAP",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      1030
+    ]
   ],
   [
     "CONFIG_SHARED_MULTI_HEAP",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      1031
+    ]
   ],
   [
     "CONFIG_SYS_MEM_BLOCKS",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      1037
+    ]
   ],
   [
     "CONFIG_MIDI2_UMP_STREAM_RESPONDER",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      1043
+    ]
   ],
   [
     "CONFIG_NET_BUF",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      1046
+    ]
   ],
   [
     "CONFIG_ZVFS_OPEN_IGNORE_MIN",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      1051
+    ]
   ],
   [
     "CONFIG_PRINTK_SYNC",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      1052
+    ]
   ],
   [
     "CONFIG_MPSC_PBUF",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      1053
+    ]
   ],
   [
     "CONFIG_SPSC_PBUF",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      1054
+    ]
   ],
   [
     "CONFIG_BOOT_BANNER",
     "y",
     "bool",
     "y",
-    "default",
+    "assign",
     [
-      "C:\\Users\\fyaih\\zephyrproject\\zephyr\\lib\\os\\Kconfig",
-      148
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      1055
     ]
   ],
   [
@@ -5364,10 +6083,10 @@
     "y",
     "string",
     "Booting Zephyr OS build",
-    "default",
+    "assign",
     [
-      "C:\\Users\\fyaih\\zephyrproject\\zephyr\\lib\\os\\Kconfig",
-      157
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      1056
     ]
   ],
   [
@@ -5375,38 +6094,41 @@
     "y",
     "int",
     "0",
-    "default",
+    "assign",
     [
-      "C:\\Users\\fyaih\\zephyrproject\\zephyr\\lib\\os\\Kconfig",
-      164
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      1057
     ]
   ],
   [
     "CONFIG_BOOT_CLEAR_SCREEN",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      1058
+    ]
   ],
   [
     "CONFIG_BOOTARGS",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      1059
+    ]
   ],
   [
     "CONFIG_CBPRINTF_COMPLETE",
     "y",
     "bool",
     "y",
-    "default",
-    [
-      "C:\\Users\\fyaih\\zephyrproject\\zephyr\\lib\\os\\Kconfig.cbprintf",
-      6
-    ]
+    "assign",
+    null
   ],
   [
     "CONFIG_CBPRINTF_NANO",
@@ -5421,11 +6143,8 @@
     "y",
     "bool",
     "y",
-    "default",
-    [
-      "C:\\Users\\fyaih\\zephyrproject\\zephyr\\lib\\os\\Kconfig.cbprintf",
-      29
-    ]
+    "assign",
+    null
   ],
   [
     "CONFIG_CBPRINTF_REDUCED_INTEGRAL",
@@ -5439,41 +6158,56 @@
     "CONFIG_CBPRINTF_FP_SUPPORT",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      1070
+    ]
   ],
   [
     "CONFIG_CBPRINTF_FP_A_SUPPORT",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      1071
+    ]
   ],
   [
     "CONFIG_CBPRINTF_LIBC_SUBSTS",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      1072
+    ]
   ],
   [
     "CONFIG_CBPRINTF_PACKAGE_LONGDOUBLE",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      1073
+    ]
   ],
   [
     "CONFIG_CBPRINTF_STATIC_PACKAGE_CHECK_ALIGNMENT",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      1074
+    ]
   ],
   [
     "CONFIG_CBPRINTF_CONVERT_CHECK_PTR",
@@ -5490,44 +6224,53 @@
     "CONFIG_ZVFS",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      1076
+    ]
   ],
   [
     "CONFIG_CPU_LOAD_METRIC",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      1077
+    ]
   ],
   [
     "CONFIG_SMF",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      1080
+    ]
   ],
   [
     "CONFIG_LIBGCC_RTLIB",
     "y",
     "bool",
     "y",
-    "default",
-    [
-      "C:\\Users\\fyaih\\zephyrproject\\zephyr\\lib\\runtime\\Kconfig",
-      13
-    ]
+    "assign",
+    null
   ],
   [
     "CONFIG_JSON_LIBRARY",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      1086
+    ]
   ],
   [
     "CONFIG_RING_BUFFER",
@@ -5543,49 +6286,67 @@
     "CONFIG_RING_BUFFER_LARGE",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      1088
+    ]
   ],
   [
     "CONFIG_NOTIFY",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      1089
+    ]
   ],
   [
     "CONFIG_BASE64",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      1090
+    ]
   ],
   [
     "CONFIG_ONOFF",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      1091
+    ]
   ],
   [
     "CONFIG_UTF8",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      1092
+    ]
   ],
   [
     "CONFIG_COBS",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      1093
+    ]
   ],
   [
     "CONFIG_GETOPT",
@@ -5601,116 +6362,155 @@
     "CONFIG_GETOPT_LONG",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      1095
+    ]
   ],
   [
     "CONFIG_TIMEUTIL_APPLY_SKEW",
     "y",
     "bool",
     "y",
-    "default",
+    "assign",
     [
-      "C:\\Users\\fyaih\\zephyrproject\\zephyr\\lib\\utils\\Kconfig",
-      118
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      1096
     ]
   ],
   [
     "CONFIG_UUID",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      1099
+    ]
   ],
   [
     "CONFIG_MIN_HEAP",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      1100
+    ]
   ],
   [
     "CONFIG_BINDESC",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      1106
+    ]
   ],
   [
     "CONFIG_CONSOLE_SUBSYS",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      1113
+    ]
   ],
   [
     "CONFIG_CPU_FREQ",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      1114
+    ]
   ],
   [
     "CONFIG_CRC",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      1115
+    ]
   ],
   [
     "CONFIG_DAP",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      1116
+    ]
   ],
   [
     "CONFIG_THREAD_ANALYZER",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      1121
+    ]
   ],
   [
     "CONFIG_DEBUG",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      1127
+    ]
   ],
   [
     "CONFIG_UBSAN",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      1128
+    ]
   ],
   [
     "CONFIG_STACK_USAGE",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      1129
+    ]
   ],
   [
     "CONFIG_STACK_SENTINEL",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      1130
+    ]
   ],
   [
     "CONFIG_PRINTK",
@@ -5736,316 +6536,430 @@
     "CONFIG_FORCE_NO_ASSERT",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      1133
+    ]
   ],
   [
     "CONFIG_ASSERT_VERBOSE",
     "y",
     "bool",
     "y",
-    "default",
+    "assign",
     [
-      "C:\\Users\\fyaih\\zephyrproject\\zephyr\\subsys\\debug\\Kconfig",
-      240
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      1134
     ]
   ],
   [
     "CONFIG_ASSERT_NO_FILE_INFO",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      1135
+    ]
   ],
   [
     "CONFIG_ASSERT_NO_COND_INFO",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      1136
+    ]
   ],
   [
     "CONFIG_ASSERT_NO_MSG_INFO",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      1137
+    ]
   ],
   [
     "CONFIG_ASSERT_TEST",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      1138
+    ]
   ],
   [
     "CONFIG_OVERRIDE_FRAME_POINTER_DEFAULT",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      1139
+    ]
   ],
   [
     "CONFIG_DEBUG_THREAD_INFO",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      1140
+    ]
   ],
   [
     "CONFIG_DEBUG_COREDUMP",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      1141
+    ]
   ],
   [
     "CONFIG_SYMTAB",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      1142
+    ]
   ],
   [
     "CONFIG_MIPI_STP_DECODER",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      1145
+    ]
   ],
   [
     "CONFIG_CS_TRACE_DEFMT",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      1146
+    ]
   ],
   [
     "CONFIG_CPU_LOAD",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      1147
+    ]
   ],
   [
     "CONFIG_DISK_ACCESS",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      1148
+    ]
   ],
   [
     "CONFIG_DSP",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      1149
+    ]
   ],
   [
     "CONFIG_EMUL",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      1150
+    ]
   ],
   [
     "CONFIG_CHARACTER_FRAMEBUFFER",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      1151
+    ]
   ],
   [
     "CONFIG_FILE_SYSTEM_LIB_LINK",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      1156
+    ]
   ],
   [
     "CONFIG_FILE_SYSTEM",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      1157
+    ]
   ],
   [
     "CONFIG_GNSS_RTK",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      1160
+    ]
   ],
   [
     "CONFIG_INSTRUMENTATION",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      1161
+    ]
   ],
   [
     "CONFIG_RPMSG_SERVICE",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      1166
+    ]
   ],
   [
     "CONFIG_IPC_SERVICE",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      1167
+    ]
   ],
   [
     "CONFIG_OPENAMP_RSC_TABLE",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      1168
+    ]
   ],
   [
     "CONFIG_JWT",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      1171
+    ]
   ],
   [
     "CONFIG_ZMS",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      1176
+    ]
   ],
   [
     "CONFIG_LLEXT",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      1179
+    ]
   ],
   [
     "CONFIG_LLEXT_EDK",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      1180
+    ]
   ],
   [
     "CONFIG_LOG_OUTPUT",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      1185
+    ]
   ],
   [
     "CONFIG_MEM_ATTR",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      1188
+    ]
   ],
   [
     "CONFIG_EC_HOST_CMD",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      1197
+    ]
   ],
   [
     "CONFIG_OSDP",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      1200
+    ]
   ],
   [
     "CONFIG_MODBUS",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      1203
+    ]
   ],
   [
     "CONFIG_MODEM_MODULES",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      1204
+    ]
   ],
   [
     "CONFIG_NETWORKING",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      1209
+    ]
   ],
   [
     "CONFIG_PM_POLICY_LATENCY_STANDALONE",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      1215
+    ]
   ],
   [
     "CONFIG_MCTP",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      1221
+    ]
   ],
   [
     "CONFIG_POSIX_SYSTEM_INTERFACES",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      1231
+    ]
   ],
   [
     "CONFIG_POSIX_API",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      1232
+    ]
   ],
   [
     "CONFIG_POSIX_AEP_CHOICE_NONE",
@@ -6060,11 +6974,8 @@
     "y",
     "bool",
     "y",
-    "default",
-    [
-      "C:\\Users\\fyaih\\zephyrproject\\zephyr\\subsys\\portability\\posix\\Kconfig.profile",
-      29
-    ]
+    "assign",
+    null
   ],
   [
     "CONFIG_POSIX_AEP_CHOICE_BASE",
@@ -6132,255 +7043,342 @@
     "CONFIG_EVENTFD",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      1249
+    ]
   ],
   [
     "CONFIG_PROFILING",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      1252
+    ]
   ],
   [
     "CONFIG_TEST_RANDOM_GENERATOR",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      1257
+    ]
   ],
   [
     "CONFIG_TIMER_RANDOM_INITIAL_STATE",
     "y",
     "int",
     "123456789",
-    "default",
+    "assign",
     [
-      "C:\\Users\\fyaih\\zephyrproject\\zephyr\\subsys\\random\\Kconfig",
-      33
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      1258
     ]
   ],
   [
     "CONFIG_CSPRNG_NEEDED",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      1259
+    ]
   ],
   [
     "CONFIG_RTIO",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      1262
+    ]
   ],
   [
     "CONFIG_MMC_STACK",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      1267
+    ]
   ],
   [
     "CONFIG_SDMMC_STACK",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      1268
+    ]
   ],
   [
     "CONFIG_SDIO_STACK",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      1269
+    ]
   ],
   [
     "CONFIG_SECURE_STORAGE",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      1272
+    ]
   ],
   [
     "CONFIG_SETTINGS",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      1273
+    ]
   ],
   [
     "CONFIG_SHELL",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      1274
+    ]
   ],
   [
     "CONFIG_STATS",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      1275
+    ]
   ],
   [
     "CONFIG_STREAM_FLASH",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      1280
+    ]
   ],
   [
     "CONFIG_TASK_WDT",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      1283
+    ]
   ],
   [
     "CONFIG_ZTEST",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      1288
+    ]
   ],
   [
     "CONFIG_ZTEST_MOCKING",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      1289
+    ]
   ],
   [
     "CONFIG_ZTRESS",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      1290
+    ]
   ],
   [
     "CONFIG_ZTEST_BENCHMARK",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      1295
+    ]
   ],
   [
     "CONFIG_TEST",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      1298
+    ]
   ],
   [
     "CONFIG_TEST_USERSPACE",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      1299
+    ]
   ],
   [
     "CONFIG_FORCE_COVERAGE",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      1305
+    ]
   ],
   [
     "CONFIG_COVERAGE_DUMP_PATH_EXCLUDE",
     "y",
     "string",
     "",
-    "default",
+    "assign",
     [
-      "C:\\Users\\fyaih\\zephyrproject\\zephyr\\subsys\\testsuite\\Kconfig.coverage",
-      96
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      1306
     ]
   ],
   [
     "CONFIG_TIMING_FUNCTIONS",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      1309
+    ]
   ],
   [
     "CONFIG_TRACING",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      1310
+    ]
   ],
   [
     "CONFIG_USB_DEVICE_STACK",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      1311
+    ]
   ],
   [
     "CONFIG_USB_DEVICE_STACK_NEXT",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      1312
+    ]
   ],
   [
     "CONFIG_USB_HOST_STACK",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      1313
+    ]
   ],
   [
     "CONFIG_USBC_STACK",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      1314
+    ]
   ],
   [
     "CONFIG_ZBUS",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      1315
+    ]
   ],
   [
     "CONFIG_MODULES",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      1316
+    ]
   ],
   [
     "CONFIG_TOOLCHAIN_ZEPHYR_1_0",
@@ -6439,11 +7437,8 @@
     "y",
     "bool",
     "y",
-    "default",
-    [
-      "C:\\Users\\fyaih\\zephyrproject\\zephyr\\Kconfig.zephyr",
-      62
-    ]
+    "assign",
+    null
   ],
   [
     "CONFIG_LINKER_ORPHAN_SECTION_ERROR",
@@ -6458,10 +7453,10 @@
     "y",
     "hex",
     "0",
-    "default",
+    "assign",
     [
-      "C:\\Users\\fyaih\\zephyrproject\\zephyr\\Kconfig.zephyr",
-      148
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      1334
     ]
   ],
   [
@@ -6469,10 +7464,10 @@
     "y",
     "hex",
     "0",
-    "default",
+    "assign",
     [
-      "C:\\Users\\fyaih\\zephyrproject\\zephyr\\Kconfig.zephyr",
-      178
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      1335
     ]
   ],
   [
@@ -6491,11 +7486,8 @@
     "y",
     "bool",
     "y",
-    "default",
-    [
-      "C:\\Users\\fyaih\\zephyrproject\\zephyr\\Kconfig.zephyr",
-      193
-    ]
+    "assign",
+    null
   ],
   [
     "CONFIG_CMAKE_LINKER_GENERATOR",
@@ -6509,36 +7501,45 @@
     "CONFIG_HAVE_CUSTOM_LINKER_SCRIPT",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      1339
+    ]
   ],
   [
     "CONFIG_LINKER_SORT_BY_ALIGNMENT",
     "y",
     "bool",
     "y",
-    "default",
+    "assign",
     [
-      "C:\\Users\\fyaih\\zephyrproject\\zephyr\\Kconfig.zephyr",
-      243
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      1340
     ]
   ],
   [
     "CONFIG_LINKER_USE_BOOT_SECTION",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      1345
+    ]
   ],
   [
     "CONFIG_LINKER_USE_PINNED_SECTION",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      1346
+    ]
   ],
   [
     "CONFIG_LINKER_GENERIC_SECTIONS_PRESENT_AT_BOOT",
@@ -6556,10 +7557,10 @@
     "y",
     "bool",
     "y",
-    "default",
+    "assign",
     [
-      "C:\\Users\\fyaih\\zephyrproject\\zephyr\\Kconfig.zephyr",
-      317
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      1348
     ]
   ],
   [
@@ -6567,10 +7568,10 @@
     "y",
     "hex",
     "0xE015E015",
-    "default",
+    "assign",
     [
-      "C:\\Users\\fyaih\\zephyrproject\\zephyr\\Kconfig.zephyr",
-      333
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      1349
     ]
   ],
   [
@@ -6599,9 +7600,12 @@
     "CONFIG_LINKER_DEVNULL_MEMORY",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      1354
+    ]
   ],
   [
     "CONFIG_STD_C90",
@@ -6632,11 +7636,8 @@
     "y",
     "bool",
     "y",
-    "default",
-    [
-      "C:\\Users\\fyaih\\zephyrproject\\zephyr\\Kconfig.zephyr",
-      416
-    ]
+    "assign",
+    null
   ],
   [
     "CONFIG_STD_C23",
@@ -6660,36 +7661,42 @@
     "CONFIG_GNU_C_EXTENSIONS",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      1366
+    ]
   ],
   [
     "CONFIG_CODING_GUIDELINE_CHECK",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      1367
+    ]
   ],
   [
     "CONFIG_COMPILER_FREESTANDING",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      1368
+    ]
   ],
   [
     "CONFIG_SIZE_OPTIMIZATIONS",
     "y",
     "bool",
     "y",
-    "default",
-    [
-      "C:\\Users\\fyaih\\zephyrproject\\zephyr\\Kconfig.zephyr",
-      517
-    ]
+    "assign",
+    null
   ],
   [
     "CONFIG_SIZE_OPTIMIZATIONS_AGGRESSIVE",
@@ -6727,35 +7734,44 @@
     "CONFIG_COMPILER_WARNINGS_AS_ERRORS",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      1374
+    ]
   ],
   [
     "CONFIG_DEPRECATION_TEST",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      1375
+    ]
   ],
   [
     "CONFIG_COMPILER_SAVE_TEMPS",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      1376
+    ]
   ],
   [
     "CONFIG_COMPILER_TRACK_MACRO_EXPANSION",
     "y",
     "bool",
     "y",
-    "default",
+    "assign",
     [
-      "C:\\Users\\fyaih\\zephyrproject\\zephyr\\Kconfig.zephyr",
-      594
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      1377
     ]
   ],
   [
@@ -6763,10 +7779,10 @@
     "y",
     "bool",
     "y",
-    "default",
+    "assign",
     [
-      "C:\\Users\\fyaih\\zephyrproject\\zephyr\\Kconfig.zephyr",
-      602
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      1378
     ]
   ],
   [
@@ -6782,11 +7798,8 @@
     "y",
     "bool",
     "y",
-    "default",
-    [
-      "C:\\Users\\fyaih\\zephyrproject\\zephyr\\Kconfig.zephyr",
-      609
-    ]
+    "assign",
+    null
   ],
   [
     "CONFIG_FORTIFY_SOURCE_RUN_TIME",
@@ -6800,17 +7813,23 @@
     "CONFIG_COMPILER_OPT",
     "y",
     "string",
-    null,
-    "unset",
-    null
+    "",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      1382
+    ]
   ],
   [
     "CONFIG_MISRA_SANE",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      1383
+    ]
   ],
   [
     "CONFIG_TOOLCHAIN_SUPPORTS_VLA_IN_STATEMENTS",
@@ -6838,20 +7857,20 @@
     "CONFIG_SCOPE_CLEANUP_HELPERS",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      1386
+    ]
   ],
   [
     "CONFIG_COMPILER_CODEGEN_VLIW_AUTO",
     "y",
     "bool",
     "y",
-    "default",
-    [
-      "C:\\Users\\fyaih\\zephyrproject\\zephyr\\Kconfig.zephyr",
-      681
-    ]
+    "assign",
+    null
   ],
   [
     "CONFIG_COMPILER_CODEGEN_VLIW_ENABLED",
@@ -6890,21 +7909,18 @@
     "y",
     "bool",
     "y",
-    "default",
-    [
-      "C:\\Users\\fyaih\\zephyrproject\\zephyr\\Kconfig.zephyr",
-      712
-    ]
+    "assign",
+    null
   ],
   [
     "CONFIG_KERNEL_BIN_NAME",
     "y",
     "string",
     "zephyr",
-    "default",
+    "assign",
     [
-      "C:\\Users\\fyaih\\zephyrproject\\zephyr\\Kconfig.zephyr",
-      736
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      1404
     ]
   ],
   [
@@ -6912,163 +7928,208 @@
     "y",
     "bool",
     "y",
-    "default",
+    "assign",
     [
-      "C:\\Users\\fyaih\\zephyrproject\\zephyr\\Kconfig.zephyr",
-      742
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      1405
     ]
   ],
   [
     "CONFIG_OUTPUT_SYMBOLS",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      1406
+    ]
   ],
   [
     "CONFIG_OUTPUT_PRINT_MEMORY_USAGE",
     "y",
     "bool",
     "y",
-    "default",
+    "assign",
     [
-      "C:\\Users\\fyaih\\zephyrproject\\zephyr\\Kconfig.zephyr",
-      784
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      1407
     ]
   ],
   [
     "CONFIG_CLEANUP_INTERMEDIATE_FILES",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      1408
+    ]
   ],
   [
     "CONFIG_BUILD_GAP_FILL_PATTERN",
     "y",
     "hex",
     "0xFF",
-    "default",
+    "assign",
     [
-      "C:\\Users\\fyaih\\zephyrproject\\zephyr\\Kconfig.zephyr",
-      805
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      1409
     ]
   ],
   [
     "CONFIG_BUILD_NO_GAP_FILL",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      1410
+    ]
   ],
   [
     "CONFIG_BUILD_OUTPUT_HEX_GAP_FILL",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      1411
+    ]
   ],
   [
     "CONFIG_BUILD_OUTPUT_EXE",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      1412
+    ]
   ],
   [
     "CONFIG_BUILD_OUTPUT_S19_GAP_FILL",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      1413
+    ]
   ],
   [
     "CONFIG_BUILD_OUTPUT_VERILOG",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      1414
+    ]
   ],
   [
     "CONFIG_BUILD_OUTPUT_UF2",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      1415
+    ]
   ],
   [
     "CONFIG_BUILD_OUTPUT_MOT",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      1416
+    ]
   ],
   [
     "CONFIG_BUILD_OUTPUT_STRIPPED",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      1417
+    ]
   ],
   [
     "CONFIG_BUILD_OUTPUT_COMPRESS_DEBUG_SECTIONS",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      1418
+    ]
   ],
   [
     "CONFIG_BUILD_ALIGN_LMA",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      1419
+    ]
   ],
   [
     "CONFIG_APPLICATION_DEFINED_SYSCALL",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      1420
+    ]
   ],
   [
     "CONFIG_MAKEFILE_EXPORTS",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      1421
+    ]
   ],
   [
     "CONFIG_BUILD_OUTPUT_META",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      1422
+    ]
   ],
   [
     "CONFIG_BUILD_OUTPUT_STRIP_PATHS",
     "y",
     "bool",
     "y",
-    "default",
+    "assign",
     [
-      "C:\\Users\\fyaih\\zephyrproject\\zephyr\\Kconfig.zephyr",
-      1065
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      1423
     ]
   ],
   [
@@ -7076,75 +8137,87 @@
     "y",
     "bool",
     "y",
-    "default",
+    "assign",
     [
-      "C:\\Users\\fyaih\\zephyrproject\\zephyr\\Kconfig.zephyr",
-      1079
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      1424
     ]
   ],
   [
     "CONFIG_EMIT_ALL_SYSCALLS",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      1425
+    ]
   ],
   [
     "CONFIG_WARN_DEPRECATED",
     "y",
     "bool",
     "y",
-    "default",
+    "assign",
     [
-      "C:\\Users\\fyaih\\zephyrproject\\zephyr\\Kconfig.zephyr",
-      1111
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      1428
     ]
   ],
   [
     "CONFIG_WARN_EXPERIMENTAL",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      1429
+    ]
   ],
   [
     "CONFIG_ENFORCE_ZEPHYR_STDINT",
     "y",
     "bool",
     "y",
-    "default",
+    "assign",
     [
-      "C:\\Users\\fyaih\\zephyrproject\\zephyr\\Kconfig.zephyr",
-      1147
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      1430
     ]
   ],
   [
     "CONFIG_IS_BOOTLOADER",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      1436
+    ]
   ],
   [
     "CONFIG_BOOTLOADER_BOSSA",
     "y",
     "bool",
-    null,
-    "unset",
-    null
+    "n",
+    "assign",
+    [
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      1437
+    ]
   ],
   [
     "CONFIG_LEGACY_GENERATED_INCLUDE_PATH",
     "y",
     "bool",
     "y",
-    "default",
+    "assign",
     [
-      "C:\\Users\\fyaih\\zephyrproject\\zephyr\\Kconfig.zephyr",
-      1217
+      "C:/Users/fyaih/zephyrproject/projects/tracker_solar/build/zephyr/.config",
+      1443
     ]
   ]
 ]

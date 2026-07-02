@@ -3,13 +3,6 @@
 #include <zephyr/kernel.h>
 #include <zephyr/drivers/gpio.h>
 
-/**
- * @brief Driver para LCD HD44780 16x2 em modo 4-bit.
- *
- * Não usa STL (sem <string>, sem <ctime>) — compatível com a
- * libc++ mínima do Zephyr (-nostdinc++ / picolibc).
- * Strings são passadas como const char* (C-strings).
- */
 class LCD {
 public:
     LCD(const gpio_dt_spec &rs,
@@ -19,30 +12,14 @@ public:
         const gpio_dt_spec &d6,
         const gpio_dt_spec &d7);
 
-    /**
-     * @brief Inicializa o hardware. Deve ser chamado antes de qualquer escrita.
-     * @return 0 em sucesso, código negativo em falha de GPIO.
-     */
     int init();
 
-    /**
-     * @brief Escreve uma C-string na primeira linha (linha 0).
-     *        Texto maior que 16 caracteres é truncado.
-     *        O restante da linha é preenchido com espaços.
-     */
     void writeLine1(const char *text);
 
-    /**
-     * @brief Escreve uma C-string na segunda linha (linha 1).
-     *        Texto maior que 16 caracteres é truncado.
-     *        O restante da linha é preenchido com espaços.
-     */
     void writeLine2(const char *text);
 
-    /** @brief Limpa o display e retorna o cursor à posição inicial. */
     void clear();
 
-    /** @brief Retorna o cursor à posição inicial sem apagar o conteúdo. */
     void home();
 
 private:

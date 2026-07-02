@@ -1,10 +1,6 @@
 #include "lcd.hpp"
 #include <zephyr/kernel.h>
-#include <string.h>   /* strlen — disponível via picolibc (C, não C++) */
-
-/* ------------------------------------------------------------------ */
-/*  Construtor                                                          */
-/* ------------------------------------------------------------------ */
+#include <string.h>
 
 LCD::LCD(const gpio_dt_spec &rs,
          const gpio_dt_spec &en,
@@ -14,10 +10,6 @@ LCD::LCD(const gpio_dt_spec &rs,
          const gpio_dt_spec &d7)
     : rs_(rs), en_(en), d4_(d4), d5_(d5), d6_(d6), d7_(d7)
 {}
-
-/* ------------------------------------------------------------------ */
-/*  Inicialização                                                       */
-/* ------------------------------------------------------------------ */
 
 int LCD::configurePin(const gpio_dt_spec &pin)
 {
@@ -37,7 +29,6 @@ int LCD::init()
     ret = configurePin(d6_); if (ret) return ret;
     ret = configurePin(d7_); if (ret) return ret;
 
-    /* Sequência de inicialização HD44780 em 4-bit (datasheet §4.4) */
     k_msleep(50);
 
     gpio_pin_set_dt(&rs_, 0);
@@ -46,7 +37,7 @@ int LCD::init()
     write4bits(0x03); k_usleep(4500);
     write4bits(0x03); k_usleep(4500);
     write4bits(0x03); k_usleep(150);
-    write4bits(0x02); /* entra em modo 4-bit */
+    write4bits(0x02);
 
     sendCommand(LCD_FUNCTIONSET | LCD_2LINE | LCD_5x8DOTS | LCD_4BITMODE);
     sendCommand(LCD_DISPLAYCONTROL | LCD_DISPLAYON | LCD_CURSOROFF | LCD_BLINKOFF);
@@ -57,10 +48,6 @@ int LCD::init()
     initialized_ = true;
     return 0;
 }
-
-/* ------------------------------------------------------------------ */
-/*  API pública                                                         */
-/* ------------------------------------------------------------------ */
 
 void LCD::writeLine1(const char *text)
 {
@@ -84,10 +71,6 @@ void LCD::home()
     k_msleep(2);
 }
 
-/* ------------------------------------------------------------------ */
-/*  Métodos privados                                                    */
-/* ------------------------------------------------------------------ */
-
 void LCD::setCursor(uint8_t col, uint8_t row)
 {
     const uint8_t rowOffsets[] = { ROW0_ADDR, ROW1_ADDR };
@@ -108,10 +91,6 @@ void LCD::writeString(const char *text, uint8_t row)
         sendData((i < len) ? (uint8_t)text[i] : (uint8_t)' ');
     }
 }
-
-/* ------------------------------------------------------------------ */
-/*  Comunicação com o HD44780                                           */
-/* ------------------------------------------------------------------ */
 
 void LCD::pulseEnable()
 {

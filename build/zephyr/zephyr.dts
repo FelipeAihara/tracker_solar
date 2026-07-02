@@ -428,13 +428,13 @@
 		           < 0x15 0x0 &gpioe 0x1 0x0 >;    /* in zephyr\boards\nxp\frdm_kl25z\frdm_kl25z.dts:74 */
 	};
 
-	/* node '/zephyr,user' defined in projects\tracker_solar\boards\frdm_kl25z.overlay:80 */
+	/* node '/zephyr,user' defined in projects\tracker_solar\boards\frdm_kl25z.overlay:122 */
 	zephyr,user {
 		gpios = < &gpioa 0x1 0x0 >,
 		        < &gpioa 0x2 0x0 >,
 		        < &gpiod 0x4 0x0 >,
 		        < &gpioa 0xc 0x0 >,
 		        < &gpioa 0x4 0x0 >,
-		        < &gpioa 0x5 0x0 >; /* in projects\tracker_solar\boards\frdm_kl25z.overlay:90 */
+		        < &gpioa 0x5 0x0 >; /* in projects\tracker_solar\boards\frdm_kl25z.overlay:132 */
 	};
 };
